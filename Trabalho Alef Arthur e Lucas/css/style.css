@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px; height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif; min-height: 100%;
+}
+
+.container {
+  padding: 27px;
+}
+
+.rounded {
+  border-radius: 10px;
+  display: block;
+  margin: 13.5px auto;
+  width: 90%;
+}
+
+
+#header-section .brand-logo {
+  height: 19.5px;
+}
+
+
+#main-section .container {
+  padding: 54px 27px;
+  text-align: center;
+}
+#main-section h1,
+#main-section h2 {
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+}
+#main-section p {
+  color: #808d99;
+  padding: 27px 0;
+}
+#main-section img {
+  width: 100%;
+}
+#main-section h2 {
+  padding: 27px 0;
+}
+#main-section input {
+  border: none;
+  box-shadow: 1px 1px 10px #d5d9dd;
+  padding: 13.5px;
+}
+#main-section button {
+  background: #ff52bf;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 13.5px;
+}
+
+/* #footer-section */
+#footer-section {
+  background: #00252e;
+  color: #ffffff;
+}
+#footer-section .container {
+  padding: 54px 27px;
+}
+#footer-section a {
+  color: #ffffff;
+}
+#footer-section .fab {
+  font-size: 2em;
+  padding: 13.5px 27px 13.5px 0;
+}
+#footer-section .link-list {
+  list-style: none;
+}
+#footer-section .link-list a {
+  line-height: 2.5;
+  text-decoration: none;
+}
+#footer-section .copyright {
+  font-size: 12px;
+  padding-top: 54px;
+  text-align: center;
+}
+#footer-section .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .rounded {
+    display: inline-block;
+    margin-bottom: 54px;
+  }
+
+  #main-section .container {
+    padding-left: 81px;
+    padding-right: 81px;
+  }
+  #main-section h2 {
+    padding-top: 81px;
+  }
+  #main-section input {
+    width: 40%;
+    margin-right: 13.5px;
+  }
+  #main-section button {
+    width: 20%;
+  }
+
+  #footer-section .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer-section .footer-group-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #footer-section .footer-group-2 {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #footer-section .link-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer-section .copyright {
+    padding: 0;
+    text-align: right;
+  }
+}
+
+
